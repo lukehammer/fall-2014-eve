@@ -52,7 +52,7 @@ def print_name_and_age(raw):
         templete =  "This is %s that person is %s years old "
         print templete % (name, age)
 
-
+"somthing here"
 
 print_name_and_age(raw_data)
 
@@ -70,4 +70,5 @@ def print_all(raw_data):
             print_name_an_age2(name,age)
         print "end"
 
-print_all(raw_data)
+
+"quick change"

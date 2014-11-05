@@ -48,10 +48,17 @@ def print_all(phonebook):
         # Add function
         #  Remove function
 phonebook = []
+#luke = Person("luke","hammer",24,"vancouver")
+
+
+phonebook.append(Person("luke","hammer",24,"vancouver"))
+print phonebook[0].first_name
+print phonebook[0].phone_number
+'''
+
 cont = True
 while cont == True:
-    next =
-    aw_input("What would you like do next?\n 'add' person \n  'search'  by first name \n  'delete'  by first name\n  'print':  "))
+    next = raw_input("What would you like do next?\n 'add' person \n  'search'  by first name \n  'delete'  by first name\n  'print':  "))
     if next == "add":
         add_person(phonebook)
     elif next == "search":
@@ -67,7 +74,7 @@ while cont == True:
         print_all(phonebook)
     else:
         print "not a vaild option"
-
+'''
 
 
 

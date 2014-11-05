@@ -10,3 +10,13 @@ test_data = [
     ["2014-06-04", "MSFT", 40.71],
 ]
 
+
+
+luke ="a cool guy"
+
+appl = "appl"
+
+if appl == "appl":
+    print True
+else:
+    print False

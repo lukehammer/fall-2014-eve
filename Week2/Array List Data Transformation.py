@@ -12,13 +12,15 @@ test_data = [
 
 master = {}
 for x in test_data:
-    ticker= x[1]
+    ticker = x[1]
     list = master.keys()
     if ticker not in list:
         master[ticker] = []
-    simple =[ x[0],x[2]]
-    master[ticker].append(simple)
-
+    new_list = []
+    for item in range(0,len(x)):
+        if not item == 1:
+            new_list.append(x[item])
+    master[ticker].append(new_list)
 
 print master
 

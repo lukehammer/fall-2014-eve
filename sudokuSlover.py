@@ -11,6 +11,7 @@ def enterpuzzle (puzzle):
         for char in puzzle:
             if not char in valid:
                 print (char + " is not a valid value please reenter puzzle without using " + char)
+        break
 
 
 

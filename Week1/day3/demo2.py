@@ -1,7 +1,8 @@
 __author__ = 'luke hammer'
 
-def sayname(name):
+def say_name(name):
     print name
 
-sayname("luke")
-sayname('amir')
+
+say_name("luke")
+say_name('amir')

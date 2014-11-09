@@ -52,15 +52,15 @@ def print_name_and_age(raw):
         templete =  "This is %s that person is %s years old "
         print templete % (name, age)
 
-"somthing here"
+"something here"
 
 print_name_and_age(raw_data)
 
 # break up the code above in to 2 functions one for printing and one for looping
 
 def print_name_an_age2(name,age):
-        templete =  "This is %s that person is %s years old "
-        print templete % (name, age)
+        template =  "This is %s that person is %s years old "
+        print template % (name, age)
 
 def print_all(raw_data):
         print "start"

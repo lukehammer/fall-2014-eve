@@ -4,8 +4,9 @@ class Transaction():
         self.payee = payee
         self.memo = memo
 
+
 class Account():
-    def __init__(self, name , balance):
+    def __init__(self, name, balance):
         self.name = name
         self.balance = balance
         self.transactions = []
@@ -17,12 +18,13 @@ class Account():
     def printLedger(self):
         print("Ledger...")
         for t in self.transactions:
-            print("\t" +" "+ str(t.amount) +" " + t.payee +" "+ t.memo)
+            print("\t" + " " + str(t.amount) + " " + t.payee + " " + t.memo)
 
-account = Account("checking",0)
+
+account = Account("checking", 0)
 account.addTransaction(Transaction(3000, "Landlord", "December Rent"))
-account.addTransaction(Transaction(3,"Starbucks","Coffee"))
+account.addTransaction(Transaction(3, "Starbucks", "Coffee"))
 account.printLedger()
 savings_account = Account("savings", 9999)
-savings_account.addTransaction(Transaction(1000,"Transfer","To_Checking"))
+savings_account.addTransaction(Transaction(1000, "Transfer", "To_Checking"))
 

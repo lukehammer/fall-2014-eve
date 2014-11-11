@@ -20,8 +20,9 @@ def get_response(data):
     result = template % (name, data["last"])
     return result
 
+
 def get_response2(data):
-    return "Hello %s %s, how are you? you are %s" % (data["name"], data["last"],data["age"])
+    return "Hello %s %s, how are you? you are %s" % (data["name"], data["last"], data["age"])
 
 
 print(get_response(raw_data))

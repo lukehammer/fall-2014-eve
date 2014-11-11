@@ -1,7 +1,10 @@
 __author__ = 'luke hammer'
 
+
 def sayname(name):
-    print name
+    print
+    name
+
 
 sayname("luke")
 sayname('amir')

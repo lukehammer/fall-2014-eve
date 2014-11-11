@@ -70,4 +70,5 @@ app.controller.routes = {
 
 request_path = "/scores/"
 response_html = app.controller.route(request_path)
-print response_html
+print
+response_html

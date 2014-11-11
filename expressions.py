@@ -4,11 +4,12 @@ name = "luke"
 
 result = (name == "bob")
 
-print("BOB RESULT: " str(result))
+print("BOB RESULT: "
+str(result))
 
 result = (name == "carol")
 
-print ("CAROL RESULT: " + str(result))
+print("CAROL RESULT: " + str(result))
 
 if name == "bob":
     print("yay")

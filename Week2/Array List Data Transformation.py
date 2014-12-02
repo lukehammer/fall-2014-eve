@@ -17,29 +17,13 @@ for x in test_data:
     if ticker not in list:
         master[ticker] = []
     new_list = []
-    for item in range(0,len(x)):
+    for item in range(0, len(x)):
         if not item == 1:
             new_list.append(x[item])
     master[ticker].append(new_list)
 
-print master
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print
+master
 
 tickers = {}
 for stock in test_data:

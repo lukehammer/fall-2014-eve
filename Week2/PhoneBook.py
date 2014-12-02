@@ -1,5 +1,6 @@
 __author__ = 'student'
 
+
 class Person(object):
     def __init__(self, first_name, last_name, phone_number, address):
         self.first_name = first_name
@@ -7,53 +8,68 @@ class Person(object):
         self.phone_number = phone_number
         self.address = address
 
+
 def printPerson(self):
-    print (self.first_name)
-    print (self.last_name)
-    print (self.address)
-    print (self.phone_number)
+    print(self.first_name)
+    print(self.last_name)
+    print(self.address)
+    print(self.phone_number)
+
 
 def return_first_name(self):
     return self.first_name
+
 
 def add_person(phonebook):
     first = raw_input("What is your first name ? ")
     last = raw_input("What is your last name ? ")
     phone_number = raw_input("What is your Phone Number? ")
     address = raw_input("What is your address ? ")
-    new_person = Person(first,last,phone_number,address)
+    new_person = Person(first, last, phone_number, address)
     phonebook.append(new_person)
+
 
 def search_by_first_name(phonebook, first_name):
     for x in phonebook:
-        if return_first_name(x)== first_name:
-            print "you have found a match"
+        if return_first_name(x) == first_name:
+            print
+            "you have found a match"
             printPerson(x)
             return True
-    print "sorry no match"
+    print
+    "sorry no match"
     return False
+
 
 def delete_by_first_name(phonebook, first_name):
     for x in phonebook:
-        if return_first_name(x)== first_name:
-            print "you have found a match"
+        if return_first_name(x) == first_name:
+            print
+            "you have found a match"
             pop(x)
             return True
-    print "sorry no match"
+    print
+    "sorry no match"
     return False
+
+
 def print_all(phonebook):
     for x in phonebook:
         printPerson(x)
-       # search functinon
+        # search functinon
         # Add function
-        #  Remove function
+        # Remove function
+
+
 phonebook = []
-#luke = Person("luke","hammer",24,"vancouver")
+# luke = Person("luke","hammer",24,"vancouver")
 
 
-phonebook.append(Person("luke","hammer",24,"vancouver"))
-print phonebook[0].first_name
-print phonebook[0].phone_number
+phonebook.append(Person("luke", "hammer", 24, "vancouver"))
+print
+phonebook[0].first_name
+print
+phonebook[0].phone_number
 '''
 
 cont = True

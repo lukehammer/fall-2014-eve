@@ -3,6 +3,12 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$USER_HOME$/Projects/suduku_slover" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2014-Summer-Evening-Intro-To-Programming-With-Python" vcs="Git" />
+    <mapping directory="$USER_HOME$/fedup" vcs="Git" />
+    <mapping directory="$USER_HOME$/infolib" vcs="Git" />
+    <mapping directory="$USER_HOME$/lumos" vcs="Git" />
+    <mapping directory="$USER_HOME$/twd" vcs="Git" />
   </component>
 </project>
 

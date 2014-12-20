@@ -7,6 +7,8 @@
     <orderEntry type="module" module-name="suduku_slover" />
     <orderEntry type="module" module-name="tango_with_django" />
     <orderEntry type="module" module-name="infolib" />
+    <orderEntry type="module" module-name="lumos" />
+    <orderEntry type="module" module-name="fedup" />
   </component>
 </module>
 

@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/fall-2014-eve.iml" filepath="$PROJECT_DIR$/.idea/fall-2014-eve.iml" />
+      <module fileurl="file://$USER_HOME$/fedup/.idea/fedup.iml" filepath="$USER_HOME$/fedup/.idea/fedup.iml" />
       <module fileurl="file://$USER_HOME$/infolib/.idea/infolib.iml" filepath="$USER_HOME$/infolib/.idea/infolib.iml" />
+      <module fileurl="file://$USER_HOME$/lumos/.idea/lumos.iml" filepath="$USER_HOME$/lumos/.idea/lumos.iml" />
       <module fileurl="file://$USER_HOME$/Projects/suduku_slover/.idea/suduku_slover.iml" filepath="$USER_HOME$/Projects/suduku_slover/.idea/suduku_slover.iml" />
       <module fileurl="file://$USER_HOME$/twd/tango_with_django/.idea/tango_with_django.iml" filepath="$USER_HOME$/twd/tango_with_django/.idea/tango_with_django.iml" />
     </modules>

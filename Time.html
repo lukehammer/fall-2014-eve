@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<div id = "timer" class= "timer">
+    <div id = "clock" >
+        <input type="text" placeholder="enter time in seconds" id = "time" >
+        <input type="button" value="Start" id="start">
+    </div>
+    <div id="countdown">
+        <h1>60</h1>
+
+    </div>
+</div>
+<script>
+    var clock = document.getElementById('clock');
+    clock.addEventListener("click",setTimer);
+        function setTimer(){
+                time = document.getElementById("time").value;
+                time = parseFloat(time,10);
+                setInterval(tick,1000)
+        }
+
+        function tick(){
+                 console.log(time);
+                 time--;
+                 clearInterval();
+           }
+
+</script>
+
+
+</body>
+</html>
